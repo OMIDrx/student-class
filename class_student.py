@@ -12,9 +12,10 @@ class student:
     def state (self):
         state = self.average
         if state >= 17:
-            return 'عالی'
+            return 'very good'
         elif 12 <= state < 17:
-            return 'قابل قبول'
+            return 'okey'
         else:
-            return 'مردود'
+            return 'very bad'
+
 
